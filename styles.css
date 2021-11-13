@@ -80,7 +80,7 @@ section{
 }
 @media screen and (max-width: 768px){
     #about{
-        padding: 20px;
+        padding: 80px 20px;
         font-size: 1.2rem;
         text-align: center;
     }
