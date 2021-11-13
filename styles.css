@@ -78,6 +78,19 @@ section{
     float: right;
     height: 300px;
 }
+@media screen and (max-width: 768px){
+    #about{
+        padding: 20px;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    #chessboard{
+        padding: 10px;
+        float: none;
+    }
+}
+    
+
 #contact{
     padding-top: 100px;
     background-color: 	#eeeed2;
