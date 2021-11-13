@@ -89,7 +89,37 @@ section{
         float: none;
     }
 }
+#gallery{
+    padding: 80px 5px;
+    background-color: #f5f5f5;
+    font-size: 1.5rem;
+}
+#gallery h1, #gallery p{
+    padding: 10px 80px;
+}
+#gallery h1{
+    color: #769656;
+}
+@media screen and (max-width: 768px){
+    #gallery{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    #gallery h1, #gallery p{
+        padding: 10px;
+    }
+}
     
+.gallery-img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.gallery .row{
+    padding: 0;
+}
 
 #contact{
     padding-top: 100px;
