@@ -16,6 +16,9 @@ section{
     font-family: 'Comforter', cursive;
     line-height: 1;
 }
+.nav-icon{
+    margin-left: 20px !important;
+}
 .navbar{
     font-size: 1.3rem;
     position: fixed;
@@ -76,6 +79,7 @@ section{
     height: 300px;
 }
 #contact{
+    padding-top: 100px;
     background-color: 	#eeeed2;
     text-align: center;
 }
